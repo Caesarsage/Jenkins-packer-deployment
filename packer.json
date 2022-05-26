@@ -27,5 +27,9 @@
       "type": "manifest",
       "output": "{{user `description`}}.json"
     }
+  ],
+  "sensitive-variables": [ 
+    "secret_key",
+    "access_key"
   ]
 }
